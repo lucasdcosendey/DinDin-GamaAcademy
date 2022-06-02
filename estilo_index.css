@@ -1,0 +1,202 @@
+/* CONFIGURAÇÕES DO BANNER */
+#banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#banner>div {
+    max-width: 400px;
+    margin: 50px;
+}
+
+
+h2 {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #555555;
+}
+
+.white_button {
+        padding: 0.5em 1em;
+        border: 2px solid #FF4081;;
+        border-radius: 62px;
+        width: 289px;
+        color: #FF4081;
+        text-align: center;
+        font-size: 25px;
+}
+
+/* CONFIGURAÇÕES DA SEÇÃO DE CURSOS */
+
+#produtos { 
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 730px;
+    
+}
+
+#produtos>div{
+    max-width: 340px;
+    margin: 50px;
+    text-align: center;
+    
+}
+
+#produtos>div>picture>img{
+    height: 270px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF4081;
+}
+h4 {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+#pink_button {
+    padding: 1em 3em;
+    border: 2px solid #fff;
+    border-radius: 62px;
+    width: 289px;
+    color: #fff;
+    background: #FF4081;
+    text-align: center;
+    
+}
+
+/* CONFIGURAÇÕES DA SEÇÃO DE DEPOIMENTOS */
+
+#sobre_title {
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
+    color: #009688;
+    width: 100%;
+    margin-left: 90px;
+}
+
+#sobre {
+    background-color: #Fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    min-height: 730px;
+}
+
+.dep_box   {
+    max-width: 495px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px;
+}
+
+.icon   {
+    margin: 28px;
+}
+
+.dep {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+.nome {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+
+/* CONFIGURAÇÕES DA SEÇÃO BLOG */
+
+#conteudo{
+    min-height: 577px;
+    background-color: #F6F6F6;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 63px;
+}
+
+#blog {
+    
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+#blog_title {
+    text-align: left;
+    width: 90%;
+    font-weight: 700;
+    font-size: 37px;
+    color: #009688;
+    margin-left: 90px;
+}
+
+#blog>.post{
+    max-width: 319px;
+    margin: 50px;
+    text-align: left;
+    
+}
+
+
+.imgpostagem {
+    width: 319px;
+    height: 193px;
+    margin-bottom: 15px;
+    background-color: #C4C4C4;
+}
+
+.titulopost {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+    color: #009688;
+}
+
+.resumopost {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    
+}
+
+ /* CONFIGURAÇÕES DO H1 */
+
+ h1{ 
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+    justify-content: left;
+    }
+
+    @media screen and (max-width: 600px  ) {
+        section img {
+            display: none;
+        }
+    }

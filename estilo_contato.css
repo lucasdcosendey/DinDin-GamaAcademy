@@ -1,0 +1,98 @@
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;
+}
+
+/* CONFIGURAÇÕES DO FLEX */
+#contato{   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-top: 92px;
+    margin-left: 6%;
+    margin-right: 6%;
+    
+}
+
+#contato_left {
+    
+   
+    padding-bottom: 102px;
+    width: 493px;
+    
+}
+
+#contato_right {
+    
+    
+    padding-bottom: 102px;
+    
+}
+
+/* CONFIGURAÇÕES DO FORMULÁRIO */
+
+
+
+#form_name {
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    height: 32px;
+    width: 99%;
+   
+}
+
+
+#form_email {
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    height: 32px;
+    width: 99%;
+}
+
+#form_msg {
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    min-height: 193px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: lowercase;
+    width: 99%;
+      
+}
+::-webkit-input-placeholder {
+    
+    text-indent: 21px;
+    text-transform: lowercase;
+    color: #58555D;
+    padding-top: 10px;
+    
+}
+
+.pink_button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px transparent;
+    border-radius: 62px;
+    width: 108px;
+    color: #fff;
+    background: #FF4081;
+    text-align: center;
+    
+}
+
+ @media screen and (max-width: 600px  ) {
+        section img {
+            display: none;
+        }
+    }

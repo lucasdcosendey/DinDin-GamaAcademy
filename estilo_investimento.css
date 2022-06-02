@@ -1,0 +1,107 @@
+/* CONFIGURAÇÕES DO BANNER */
+h1 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+    color: #FF4081;
+
+}
+
+#banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 88px;
+    flex-wrap: wrap;
+    margin-top: 93px;
+    margin-bottom: 81px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#banner_left {
+    max-width: 461px;
+}
+
+#banner_right {
+    max-width: 380px;
+}
+
+#banner_left>p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: left;
+    color: #000000;
+
+}
+
+/* CONFIGURAÇÕES DA SEÇÃO DE AULAS */
+
+#conteudo {
+    background-color: #f7f7f7;
+    padding-top: 35px;
+    
+    
+    
+}
+
+.aula {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    border-bottom: 3px solid #c4c4c4;
+    max-width: 1244px;
+    padding-bottom: 75px;
+    padding-top: 75px;
+    flex-wrap: wrap;
+    margin-left: 9%;
+    margin-right: 9%;
+    
+    
+}
+
+#aula3 {
+    border-bottom: 0px;
+}
+
+video {
+    max-width: 462px;
+    height: 261px;
+    border: 3px solid #8E8E8E;
+
+}
+
+.dados_aula {
+    max-width: 501px;
+    
+}
+
+.dados_aula>h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+
+}
+.dados_aula>p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    
+}
+
+
+@media screen and (max-width: 600px  ) {
+    video {
+        display: none;
+    }
+}
+
